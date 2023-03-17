@@ -1,0 +1,188 @@
+.container{
+    width: 1280px;
+    margin: auto;
+}
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+ul li{
+    list-style: none;
+}
+.option select{
+    font-size: 18px;
+    padding: 10px 176px 15px 24px;
+    border: 1px solid #000;
+}
+.option a{
+    margin-left: 20px;
+    color: #fff;
+    background: #000;
+    font-size: 20px;
+    padding: 11px 15px;
+}
+.option a:hover{
+    background: #001aff;
+    color: #fff;
+}
+.option button{
+    border: 1px solid #000;
+    padding: 14px 15px;
+    margin-left: 20px;
+}
+.vinod-kumar-sain input{
+    padding: 10px 90px 10px 20px;
+    border: 1px solid #000;
+    font-size: 14px;
+}
+.vinod-kumar input{
+    margin-top: 20px;
+    padding: 10px 90px 10px 20px;
+    border: 1px solid #000;
+    font-size: 14px;
+}
+.password input{
+    margin-top: 20px;
+    padding: 10px 90px 10px 20px;
+    font-size: 14px;
+}
+.range{
+    margin-top: 20px;
+}
+.Upload select{
+    border: 1px solid #000;
+    margin-top: 20px;
+    padding: 10px 176px 15px 24px;
+}
+.radio{
+    margin-top: 20px;
+}
+.jaipur{
+    margin-top: 20px;
+}
+.textarea{
+    margin-top: 20px;
+}
+.submit{
+    margin-top: 20px;
+}
+.table{
+    margin-top: 20px;
+    padding-bottom: 63px;
+}
+.bi-airplane-engines-fill{
+    font-size: 20px;
+    background: #000;
+    color: #fff;
+    padding: 20px 20px;
+}
+.bi-android2{
+    font-size: 20px;
+    background: #000;
+    margin-left: 20px;
+    color: #fff;
+    padding: 20px 20px;
+}
+.bi-bank2{
+    font-size: 20px;
+    background: #000;
+    margin-left: 20px;
+    color: #fff;
+    padding: 20px 20px;
+}
+.bi-binoculars-fill{
+    font-size: 20px;
+    background: #000;
+    margin-left: 20px;
+    color: #fff;
+    padding: 20px 20px;
+}
+.bi-bicycle{
+    font-size: 20px;
+    background: #000;
+    margin-left: 20px;
+    color: #fff;
+    padding: 20px 20px;
+}
+.mape{
+    margin-top: 70px;
+}
+.gradient{
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+ /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,9b1828+29,d6b628+51,1aa31a+75,99526b+100 */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(left,  #1e5799 0%, #9b1828 29%, #d6b628 51%, #1aa31a 75%, #99526b 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #1e5799 0%,#9b1828 29%,#d6b628 51%,#1aa31a 75%,#99526b 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #1e5799 0%,#9b1828 29%,#d6b628 51%,#1aa31a 75%,#99526b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#99526b',GradientType=1 ); /* IE6-9 */
+
+}
+.port ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.port li{
+    width: 32%;
+    margin: 10px 0px;
+}
+.port img{
+    width: 100%;
+}
+.port li:hover .overlay{
+    display: block;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.7);
+    width: 397px;
+    height: 330px;
+    border-radius: 5px;
+    position: absolute;
+    display: none;
+}
+.designation{
+    position: relative;
+       left: 35px;
+       top: -91px;
+}
+.designation a{
+    background: #001aff;
+    color: #fff;
+    font-size: 20px;
+    padding: 18px 54px;
+    border-radius: 50px;
+    position: absolute;
+    left: 48px;
+}
+.designation a:hover{
+    background: #1e5799;
+    color: #fff;
+}
+.scroll{
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    width: 500px;
+    max-height: 430px;
+    overflow: scroll;
+}
+.porro-quisquam{
+    width: 716px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 32px;
+    margin-top: 30px;
+}
